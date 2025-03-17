@@ -5,12 +5,42 @@
 body {
   margin: 0;
   padding: 1rem;
-  font-family: system-ui, sans-serif;
+  font-family: Arial, sans-serif;
   color: black;
   background-color: white;
+  text-align: center;
 }
 
 h1 {
-  font-weight: 800;
   font-size: 1.5rem;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  max-width: 300px;
+  margin: 20px auto;
+}
+
+input {
+  margin: 10px 0;
+  padding: 8px;
+  font-size: 1rem;
+}
+
+button {
+  padding: 10px;
+  background-color: blue;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: darkblue;
+}
+
+#response {
+  margin-top: 10px;
+  font-weight: bold;
 }
